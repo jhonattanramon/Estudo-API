@@ -39,6 +39,15 @@ body {
   position: relative;
 }
 
+.div-img img{
+  width: 98px;
+  height: 152px;
+  left: -7px;
+  top: 0px;
+
+  border-radius: 6px;
+}
+
 .img {
   position: absolute;
 }
@@ -104,3 +113,4 @@ body {
   left: 65px;
   
 }
+
