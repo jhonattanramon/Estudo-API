@@ -39,8 +39,18 @@ body {
   position: relative;
 }
 
+.div-img img{
+  width: 98px;
+  height: 152px;
+  left: -7px;
+  top: 0px;
+
+  border-radius: 6px;
+}
+
 .img {
   position: absolute;
+  
 }
 .marcador{
   width: 10px;
@@ -67,8 +77,13 @@ body {
 .dia{
   font-weight: 400;
   font-size: 36px;
-  
 }
+.hora{
+  position: absolute;
+  top: 130px;
+  left: 5px;
+}
+
 .cidade{
   font-weight: 400;
   font-size: 14px;
@@ -102,5 +117,10 @@ body {
   position: absolute;
   bottom: 83px;
   left: 65px;
-  
 }
+.line{
+  margin: 0 10px;
+  position: relative;
+  top: 13px;
+}
+
