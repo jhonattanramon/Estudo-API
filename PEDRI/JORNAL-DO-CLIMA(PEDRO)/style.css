@@ -6,21 +6,28 @@
   
 }
 
+:root{
+  --center: 
+}
+
 body {
+  width: 1000px;
+  height: 100vh;
   background-color: rgb(134, 134, 134);
   color: white;
 }
 
-.Noite {
-
+.noite {
   width: 414px;
   height: 151px;
-
-
   background-color: white;
   border-radius: 10px;
-
   background: linear-gradient(90deg, #6E1B7B 0%, #310C4E 100%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  
 }
 
 .div-conteudo {
@@ -30,28 +37,21 @@ body {
   justify-content: center;
   align-items: center;
 }
-.alinhamento-especifico{
-  position: relative;
-  left: 30px;
-}
 
 .div-img {
-  position: relative;
+  position: absolute;
+  left: 330px;
+  
 }
 
 .div-img img{
-  width: 98px;
-  height: 152px;
-  left: -7px;
-  top: 0px;
+  width: 100px;
+  height: 145px;
+ background-color: red;
 
-  border-radius: 6px;
 }
 
-.img {
-  position: absolute;
-  
-}
+
 .marcador{
   width: 10px;
   height: 10px;
@@ -115,7 +115,7 @@ body {
 
 .retangulo{
   position: absolute;
-  bottom: 83px;
+
   left: 65px;
 }
 .line{
