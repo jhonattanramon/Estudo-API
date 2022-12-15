@@ -4,14 +4,26 @@ async function getTempo() {
     
     const resposta = await fetch(encodedURI);
     const json = await resposta.json();
+    const results = json.results
+    console.log(results);
 
-    document.getElementById('temperatura').innerHTML = json.results.temp;
-    document.getElementById('cidade').innerHTML = json.results.city_name;
-  //  document.getElementById('hora').innerHTML = json.results.time;
-    document.getElementById('data').innerHTML = json.results.date
-     //document.getElementById('dia').innerHTML = json.results.we
+    const apiHora = document.querySelector('.api-hora')
+    const apiData = document.querySelector('.api-data')
+    const apiDia = document.querySelector('.api-dia')
+    const apiCidade = document.querySelector('.api-cidade')
+    const apiTemperatura= document.querySelector('.api-temperatura')
+ 
+
+    const carregarInformacoesApi = () => {
+      apiHora.innerHTML = results.time;
+      apiData.innerHTML = results.date;
+      apiDia.innerHTML = results.forecast[0].weekday
+      apiCidade.innerHTML = results.city;
+      apiTemperatura.innerHTML = results.temp
+    }
      
      console.log(json);
+     carregarInformacoesApi()
 }
 
 getTempo();

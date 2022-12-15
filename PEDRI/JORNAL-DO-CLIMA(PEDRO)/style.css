@@ -30,6 +30,7 @@ body {
   
 }
 
+
 .div-conteudo {
   width: 100%;
   height: 100%;
@@ -41,13 +42,13 @@ body {
 .div-img {
   position: absolute;
   left: 330px;
+
   
 }
 
 .div-img img{
   width: 100px;
   height: 145px;
- background-color: red;
 
 }
 
@@ -107,7 +108,7 @@ body {
 .div-temperatura{
   display: flex;
 }
-.span-icon-clima{
+.span-icon-clima-noite{
  position: relative;
  bottom: 20px;
   
@@ -115,8 +116,8 @@ body {
 
 .retangulo{
   position: absolute;
-
-  left: 65px;
+  top: 10px;
+  left: 140px;
 }
 .line{
   margin: 0 10px;
@@ -124,3 +125,17 @@ body {
   top: 13px;
 }
 
+
+/* codição sol */
+
+.sol{
+  width: 414px;
+  height: 151px;
+  
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background: linear-gradient(90deg, #FF9900 0%, #FFB800 100%);
+  
+}
