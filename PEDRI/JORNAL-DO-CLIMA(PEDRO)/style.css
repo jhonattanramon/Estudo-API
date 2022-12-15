@@ -17,6 +17,16 @@ body {
   color: white;
 }
 
+.fixeds{
+  width: 414px;
+  height: 151px;
+  
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
 .noite {
   width: 414px;
   height: 151px;
@@ -108,6 +118,13 @@ body {
 .div-temperatura{
   display: flex;
 }
+
+
+.div-temperatura span img{
+  
+  width: 40px ;
+  height: 40px;
+}
 .span-icon-clima-noite{
  position: relative;
  bottom: 20px;
@@ -120,22 +137,52 @@ body {
   left: 140px;
 }
 .line{
-  margin: 0 10px;
+  
   position: relative;
   top: 13px;
 }
 
 
-/* codição sol */
+/* codição icon */
 
-.sol{
-  width: 414px;
-  height: 151px;
-  
-  border-radius: 10px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
+.backgroud-sol{
   background: linear-gradient(90deg, #FF9900 0%, #FFB800 100%);
-  
 }
+.backgroud-nublado{
+  background: linear-gradient(90deg, #6B6B6B 0%, rgba(126, 125, 122, 0.96) 100%);
+}
+
+
+
+
+
+.span-icon-clima-noite{
+  position: absolute;
+  left: 35px;
+  top: 20px;
+}
+
+.span-icon-sol{
+  position: absolute;
+  left: 35px;
+  top: 20px;
+}
+
+.span-icon-chuva{
+  position: absolute;
+  left: 35px;
+  top: 20px;
+}
+.span-icon-raios{
+  position: absolute;
+  left: 35px;
+  top: 20px;
+}
+.span-icon-sol-com-nuvens{
+  position: absolute;
+  left: 35px;
+  top: 20px; 
+}
+
+
+

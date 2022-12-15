@@ -1,5 +1,5 @@
 async function getTempo() {
-    const uri = 'https://api.hgbrasil.com/weather?key=2aec33e4&format=json-cors&city_name=Rio Largo,AL';
+    const uri = 'https://api.hgbrasil.com/weather?key=c1bda15e&format=json-cors&city_name=Rio Largo,AL';
     const encodedURI = encodeURI(uri);
     
     const resposta = await fetch(encodedURI);
@@ -12,6 +12,8 @@ async function getTempo() {
     const apiDia = document.querySelector('.api-dia')
     const apiCidade = document.querySelector('.api-cidade')
     const apiTemperatura= document.querySelector('.api-temperatura')
+    const divPersonagem = document.querySelector('#div-img')
+    console.log(divPersonagem);
  
 
     const carregarInformacoesApi = () => {
@@ -20,6 +22,11 @@ async function getTempo() {
       apiDia.innerHTML = results.forecast[0].weekday
       apiCidade.innerHTML = results.city;
       apiTemperatura.innerHTML = results.temp
+    }
+
+    const trocaDePersonagem = () => {
+      
+      divPersonagem.innerHTML = 
     }
      
      console.log(json);
