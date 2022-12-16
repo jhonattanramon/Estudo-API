@@ -38,32 +38,37 @@ const criarTela = ()=>{
         break;
           case 'cloudly_night':
           imgPerson = 'img/kokushibouu.svg';  
+          imgIcon = 'img/icon-clima/icon-sol-com-nuves.svg';
 
         break;
           case 'clear_day':
           imgPerson = 'img/Rengokuu.svg'
-
+          imgIcon = 'img/icon-clima/icon-chuva.svg.svg';
   
         break;
           case 'clear_night':
           imgPerson = 'img/kokushibouu.svg';
+          imgIcon = 'img/icon-clima/icon-sol-com-nuves.svg';
 
         break;
           case 'rain':
           imgPerson = 'img/Tanjiroo.svg';
+          imgIcon = 'img/icon-clima/icon-sol-com-nuves.svg';
 
         break;
           case 'storm':
           imgPerson = 'img/Zenitsuu.svg';
+          imgIcon = 'img/icon-clima/icon-sol-com-nuves.svg';
 
         break;
           case 'none_night':
           imgPerson = 'img/kokushibouu.svg';
-        
+          imgIcon = 'img/icon-clima/icon-sol-com-nuves.svg';
+
         break;
           case 'none_day':
           imgPerson = 'img/Rengokuu.svg';
-
+          imgIcon = 'img/icon-clima/icon-sol-com-nuves.svg';
 
         default:
           break;
