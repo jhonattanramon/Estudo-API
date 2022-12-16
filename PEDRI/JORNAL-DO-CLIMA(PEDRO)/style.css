@@ -73,7 +73,7 @@ body {
   
   display: flex;
   align-items: center;
-  justify-content:center
+  justify-content:center;
   gap: 5px;
   position: absolute;
   top: 12px;
@@ -106,7 +106,6 @@ body {
   border: none;
   color:white;
   width: 100px;
-  
 };
 
 .inCity:select:focus{
@@ -121,20 +120,31 @@ body {
 }
 
 .btPesquisar{
+  position: relative;
+  bottom: 1.1px;
   border-radius:10px;
    background: rgba(254, 254, 255, 0.3);
    border:none;
    height: 21px;
    width: 40px;
   cursor: pointer;
-   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.btPesquisar:hover{
+background:  rgba(254, 254, 255, 0.581);;
+}
+.btPesquisar img{
+  width: 13px;
+  height: 13px;
 }
 .cidade{
   font-weight: 400;
   font-size: 13px;
  display:flex;
  align-items:center;
-  
 }
 .temperatura{
   font-weight: 400;

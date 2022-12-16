@@ -1,5 +1,5 @@
 async function getTempo() {
-  const uri = 'https://api.hgbrasil.com/weather?key=c1bda15e&format=json-cors&city_name=Rio Largo,AL';
+  let uri = `https://api.hgbrasil.com/weather?key=c1bda15e&format=json-cors&city_name=${}`;
   const encodedURI = encodeURI(uri);
 
   const resposta = await fetch(encodedURI);
@@ -8,8 +8,10 @@ async function getTempo() {
   console.log(results);
   
  let arrayImg = [ 'img/Rengokuu.svg', 'img/Tanjiroo.svg','img/Tokitoo.svg','img/']
-  
 let container = document.querySelector('.container')
+  let btCidade;
+
+
 const criarTela = ()=>{
     
     
@@ -41,7 +43,7 @@ const criarTela = ()=>{
 
           <span class="spanCidade">
             <img class="marcador" src="img/icons8-marcador-50.png" alt="">
-            <span class="cidade">  <input type='text' value='${results.city}' class='inCity' >  <button class = 'btPesquisar'> <i class="fa-solid fa-magnifying-glass"></i> </button> </span>
+            <span class="cidade">  <input type='text' value='${results.city}' class='inCity' >  <button class = 'btPesquisar'> <img src='img/icon-clima/lupa.svg'> </img> </button> </span>
           
           </span>
                       <span> <p>${results.forecast[i].description} </p> </span>
@@ -73,15 +75,28 @@ const criarTela = ()=>{
   </div>
       
       `
+      
     }
     
-    
+    btCidade = document.querySelector('.btPesquisar');
+    console.log(btCidade);
   }
   
+ 
+ 
   criarTela()
   
-  const inCity = document.querySelectorAll('.inCity')
+  const mudarCidade = ()=>{
+    
+  const inCity = document.querySelector('.inCity')
+  let inCityValue = inCity.value;
+return inCityValue
+
+ 
+ 
+}
   
+btCidade.addEventListener('click', mudarCidade)
   
 
   
