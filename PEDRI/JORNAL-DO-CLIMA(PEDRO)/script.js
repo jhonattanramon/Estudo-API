@@ -1,6 +1,7 @@
 let uri = `https://api.hgbrasil.com/weather?key=c1bda15e&format=json-cors&city_name=rio largo`;
 
 let imgPerson;
+let imgIcon;
 
 async function getTempo() {
  
@@ -11,13 +12,8 @@ async function getTempo() {
   const results = json.results
   console.log(results);
   
- let arrayImg = [ 'img/Rengokuu.svg', 'img/Tanjiroo.svg','img/Tokitoo.svg','img/']
 let container = document.querySelector('.container')
   let btCidade;
-
-
-
-
 
 
 
@@ -25,18 +21,54 @@ let container = document.querySelector('.container')
 const criarTela = ()=>{
     
     container.innerHTML = ''
-    for( let i = 0; i <= 2; i++){
+    for( let i = 0; i <= 9; i++){
 
 
       switch (results.forecast[i].condition) {
-        case 'cloud':
-          imgPerson = 'img/Zenitsuu.svg';
-          break;
           
-      
+          case 'cloud':
+          imgPerson = 'img/Tokitoo.svg';
+          imgIcon = 'img/icon-clima/icon-sol-com-nuves.svg';
+
+        break;
+          case 'cloudly_day':  
+          imgPerson = 'img/Tokitoo.svg';
+          imgIcon = 'img/icon-clima/icon-sol-com-nuves.svg';
+
+        break;
+          case 'cloudly_night':
+          imgPerson = 'img/kokushibouu.svg';  
+
+        break;
+          case 'clear_day':
+          imgPerson = 'img/Rengokuu.svg'
+
+  
+        break;
+          case 'clear_night':
+          imgPerson = 'img/kokushibouu.svg';
+
+        break;
+          case 'rain':
+          imgPerson = 'img/Tanjiroo.svg';
+
+        break;
+          case 'storm':
+          imgPerson = 'img/Zenitsuu.svg';
+
+        break;
+          case 'none_night':
+          imgPerson = 'img/kokushibouu.svg';
+        
+        break;
+          case 'none_day':
+          imgPerson = 'img/Rengokuu.svg';
+
+
         default:
           break;
       }
+
     
 
       
