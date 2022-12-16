@@ -6,9 +6,6 @@
   
 }
 
-:root{
-  --center: 
-}
 
 body {
   width: 1000px;
@@ -22,7 +19,7 @@ body {
   height: 151px;
   
   border-radius: 10px;
-  position: absolute;
+  position: relative;
   left: 50%;
   top: 50%;
 }
@@ -68,10 +65,14 @@ body {
   height: 10px;
 }
 .spanCidade{
-  width: 100%;
+  
   display: flex;
   align-items: center;
-  justify-content:center;
+  gap: 5px;
+  position: absolute;
+  top: 12px;
+  left: 148px;
+  
 }
 
 .div-alinhamento{
@@ -97,13 +98,16 @@ body {
 
 .cidade{
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13px;
 }
 .temperatura{
   font-weight: 400;
-  font-size: 72px;
+  font-size: 20px;
   text-align: center;
   display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 17px;
   
 }
 .temperatura span{
@@ -139,7 +143,7 @@ body {
 .line{
   
   position: relative;
-  top: 13px;
+  top: 20px;
 }
 
 
@@ -185,4 +189,14 @@ body {
 }
 
 
+.cloudly_day{
+  background-image: linear-gradient(90deg, #44f1e0 0%, #2EA6C0 100%);
+}
+.rain{
+  background-image: linear-gradient(
+  90deg,#6B6B6B 0%, #326A7E 100%)
+}
+.clear_day{
+  background-image: linear-gradient(90deg, #ff9900 0%, #ffb800 100% )
+}
 
