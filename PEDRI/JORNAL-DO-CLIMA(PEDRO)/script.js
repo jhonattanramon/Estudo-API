@@ -1,6 +1,6 @@
 let uri = `https://api.hgbrasil.com/weather?key=c1bda15e&format=json-cors&city_name=rio largo`;
 
-
+let imgPerson;
 
 async function getTempo() {
  
@@ -16,24 +16,50 @@ let container = document.querySelector('.container')
   let btCidade;
 
 
+
+
+
+
+
+
 const criarTela = ()=>{
     
     container.innerHTML = ''
     for( let i = 0; i <= 2; i++){
+
+
+      switch (results.forecast[i].condition) {
+        case 'cloud':
+          imgPerson = 'img/Zenitsuu.svg';
+          break;
+          
+      
+        default:
+          break;
+      }
+    
+
       
       container.innerHTML += `
         <div class="fixeds ${results.forecast[i].condition}">
 
     <div id="div-img" class="div-img">
-      <img  class="img" src="${arrayImg[i]}" alt="">
+      <img  class="img" src="${imgPerson}" alt="">
     </div>
 
      <div class="hora" > <p class="api-hora"> ${results.time}</p> </div>
 
      <span class="spanCidade">
      <img class="marcador" src="img/icons8-marcador-50.png" alt="">
+
      <span class="cidade"> 
-      <input type='text' value='${results.city}' class='inCity' >  <button class = 'btPesquisar'> <img src='img/icon-clima/lupa.svg'> </img> </button> 
+
+      <input type = 'text' value = '${results.city}' class>
+      
+      <button class = 'btPesquisar'>
+       <img src='img/icon-clima/lupa.svg'> </img>
+     </button> 
+
      </span>
 
      <div class="retangulo"> <img src="img/Rectangle 5.svg" alt=""></div>
@@ -46,7 +72,9 @@ const criarTela = ()=>{
 
     
 
-      <div> </div>
+      <div>
+      
+      </div>
         
       
         <div class="div-left">
@@ -112,3 +140,4 @@ btCidade.addEventListener('click', mudarCidade)
 }
 
 getTempo();
+
