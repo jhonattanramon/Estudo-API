@@ -109,8 +109,8 @@ const criarTela = ()=>{
 
     
 
-      <div>
-      
+      <div class = 'divIcon'>
+        <span> </span>
       </div>
         
       
