@@ -10,10 +10,15 @@
 body {
   width: 1000px;
   height: 100vh;
-  background-color: rgb(134, 134, 134);
+  background-color: white;
   color: white;
 }
-
+.container{
+  display:grid;
+  align-items: stretch;
+  justify-content: stretch;
+  gap: 20px;
+}
 .fixeds{
   width: 414px;
   height: 151px;
@@ -54,7 +59,7 @@ body {
 }
 
 .div-img img{
-  width: 100px;
+  width: 70px;
   height: 145px;
 
 }
@@ -68,6 +73,7 @@ body {
   
   display: flex;
   align-items: center;
+  justify-content:center
   gap: 5px;
   position: absolute;
   top: 12px;
@@ -95,10 +101,40 @@ body {
   top: 130px;
   left: 5px;
 }
+.inCity{
+  background: none;
+  border: none;
+  color:white;
+  width: 100px;
+  
+};
 
+.inCity:select:focus{
+  box-shadow: none;
+  border:none;
+  outline:0;
+}
+.inCity:focus{
+  box-shadow: none;
+  border:none;
+  outline:0;
+}
+
+.btPesquisar{
+  border-radius:10px;
+   background: rgba(254, 254, 255, 0.3);
+   border:none;
+   height: 21px;
+   width: 40px;
+  cursor: pointer;
+   
+}
 .cidade{
   font-weight: 400;
   font-size: 13px;
+ display:flex;
+ align-items:center;
+  
 }
 .temperatura{
   font-weight: 400;
@@ -200,3 +236,6 @@ body {
   background-image: linear-gradient(90deg, #ff9900 0%, #ffb800 100% )
 }
 
+.cloud{
+   background-image: linear-gradient(90deg, #6B6B6B 0%, rgba(126, 125, 122, 0.96) 100%);
+}

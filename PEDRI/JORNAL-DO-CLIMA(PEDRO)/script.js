@@ -7,13 +7,13 @@ async function getTempo() {
   const results = json.results
   console.log(results);
   
- let arrayImg = ['img/kokushibouu.svg', 'img/Rengokuu.svg', 'img/Tanjiroo.svg','img/Tokitoo.svg','img/Zenitsuu.svg']
+ let arrayImg = [ 'img/Rengokuu.svg', 'img/Tanjiroo.svg','img/Tokitoo.svg','img/']
   
 let container = document.querySelector('.container')
 const criarTela = ()=>{
     
     
-    for( let i = 0; i <= 7; i++){
+    for( let i = 0; i <= 2; i++){
       
       container.innerHTML += `
         <div class="fixeds ${results.forecast[i].condition}">
@@ -41,7 +41,8 @@ const criarTela = ()=>{
 
           <span class="spanCidade">
             <img class="marcador" src="img/icons8-marcador-50.png" alt="">
-            <span class="cidade">  <p  class="api-cidade"> ${results.city}</p></span>
+            <span class="cidade">  <input type='text' value='${results.city}' class='inCity' >  <button class = 'btPesquisar'> <i class="fa-solid fa-magnifying-glass"></i> </button> </span>
+          
           </span>
                       <span> <p>${results.forecast[i].description} </p> </span>
 
@@ -79,7 +80,9 @@ const criarTela = ()=>{
   
   criarTela()
   
- 
+  const inCity = document.querySelectorAll('.inCity')
+  
+  
 
   
 }
