@@ -56,8 +56,15 @@ body {
 }
 
 
-.div-icon{
+.div-icon img{
   position: absolute;
+
+  top: 46px;
+  left: 51px;
+
+  height: 51px;
+  width: 41px;
+  
 }
 
 
@@ -90,11 +97,13 @@ body {
   font-weight: 400;
   font-size: 36px;
 }
+
 .hora{
- 
-  top: 130px;
-  left: 5px;
+  top: 110px;
+  left: 20px;
+  border-radius: 10px;
 }
+
 .inCity{
   background: none;
   border: none;
