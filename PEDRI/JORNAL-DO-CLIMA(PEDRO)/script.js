@@ -83,6 +83,9 @@ const criarTela = ()=>{
     <div id="div-img" class="div-img">
       <img  class="img" src="${imgPerson}" alt="">
     </div>
+    <div  class="div-img">
+    <img  class="img" src="${imgIcon}" alt="">
+  </div>
 
      <div class="hora" > <p class="api-hora"> ${results.time}</p> </div>
 
