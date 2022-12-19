@@ -38,6 +38,7 @@ const criarTela = ()=>{
         break;
           case 'cloudly_night':
           imgPerson = 'img/kokushibouu.svg';  
+          
 
         break;
           case 'clear_day':
