@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+	<title>Rain_sun</title>
+	<defs>
+		<image  width="28" height="28" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAAXNSR0IB2cksfwAAAEVQTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////Up1zwgAAABd0Uk5TACB/v+//z59ArxCPMN+QoICwYFBwH2+cR3gOAAABMElEQVR4nG1SgbKDIAwr0ihjIj7U/f+nvhTYTd1ytxsSmjYBkQo3eAXGKXAdHgp9BOmIE97w7tlXz8bNCbqEKDHkxF1dnbhVG+uU57uGW4C1VSio7BKyfLACc1/8iUxIcsYC30Sg/MFdyFj1CEAKJrmi6rVKj+1GUouO3cAz2vufkKpPU6fyHVuUOcPEf5AVO9RR4/jNZqbhUa6bcajDSqD/vXu2T0+RkN6hsCE9txDsaoK8OOeHpOda6sxAoEffpQJGVqSakcdIyyum0gJi5rbNy/ESOTkQdyRtE7565rxsaz3amZG6nMw6rj3NbKbNdZQwRz6UQ7Cf/Tk+lEFLm+yQ6z2SpmZhZPyL97xqSWEwM2/yDo88IpDx3cwZfFmWVq6TfVfCQpGtfHWs8/hryT/Z7wph9ZHBKgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="2" y="2"/>
+</svg>

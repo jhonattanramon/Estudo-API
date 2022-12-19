@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+	<title>Cloudy_Sun</title>
+	<defs>
+		<image  width="28" height="28" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAAXNSR0IB2cksfwAAAEJQTFRFAAAA////////////////////////////////////////////////////////////////////////////////////CF/ShgAAABZ0Uk5TAGD/n0CvIL+g3xCAMFB/789wj2+QH0vl1sQAAAEDSURBVHicdZLbtoMgDETDGIKACu2x//+rJ0Fdtqh5UdlOLhOIfsNhoLtgLwcMrocjApE4tj9iD1PMCnkimuNFqXgpAMog7aMrqiiGqvz1q+a3DyrSgiSj0Qi/oz9LZ7H9nlGEXxsS1YQ885yjYmmNr7tMIiIfHsRGGWU/iKhnZ1JR9VHw4UHtWLZM57TIJvg4wJIyfYemTKpM4pxaFTorAvzQchN59Fa5NtRirxVTByWsWYezLrXsXUhz6AGSFG1UJ7qnWdceMD9IdeP54dK0ggmQW5asm/HiwhZs52rmcgdDc2cq8NfMxz4m3fHA3xcqsVq0T2G3po9yTihrLd8oZkv0D/oIB1yjcbOiAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="2" y="2"/>
+</svg>

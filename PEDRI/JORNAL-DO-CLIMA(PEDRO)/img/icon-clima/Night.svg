@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+	<title>Night</title>
+	<defs>
+		<image  width="24" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAAXNSR0IB2cksfwAAAEJQTFRFAAAA////////////////////////////////////////////////////////////////////////////////////CF/ShgAAABZ0Uk5TABB/v9//72AgQG+fgK9QcM8woJAfjw39caIAAADlSURBVHicXVHRAoMgCMTwDGfFatv//+oItdnugQzEOw6iijBxBBLPgUYIw8H5lqZHQipWW+5pmoA1SM1vnqnxAShRwZMoz89ZWiRJfjXCroX1PNdoV4vFHTi7D9Ue7W1ro4zoqp3AJas39EKnMTBcgjXW0RoBUcLevm24SpOpkhK9wM0cj/EqmOppnNn0v+tZ8at8kDq5YQHiaW5Q85ntt9CvYs4n91kpIF0rkCOeyXj40Ix1cDrkPTSXTI7+rQdJmhy95/u/kRa53lqHTaopKZtZI1uxLQ/9cuACC40QZWuLvHTtX1BICADlRUgyAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="4" y="4"/>
+</svg>

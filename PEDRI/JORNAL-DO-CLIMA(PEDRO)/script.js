@@ -28,47 +28,47 @@ const criarTela = ()=>{
           
           case 'cloud':
           imgPerson = 'img/Tokitoo.svg';
-          imgIcon = 'img/icon-clima/icon-sol-com-nuves.svg';
+          imgIcon = 'img/icon-clima/CLOUDY.svg';
 
         break;
           case 'cloudly_day':  
           imgPerson = 'img/Tokitoo.svg';
-          imgIcon = 'img/icon-clima/icon-sol-com-nuves.svg';
+          imgIcon = 'img/icon-clima/Cloudy_Sun.svg';
 
         break;
           case 'cloudly_night':
           imgPerson = 'img/kokushibouu.svg';  
-          imgIcon = 'img/icon-clima/icon-sol-com-nuves.svg';
+          imgIcon = 'img/icon-clima/Cloudy_Night.svg';
 
         break;
           case 'clear_day':
           imgPerson = 'img/Rengokuu.svg'
-          imgIcon = 'img/icon-clima/icon-chuva.svg.svg';
+          imgIcon = 'img/icon-clima/Sun.svg';
   
         break;
           case 'clear_night':
           imgPerson = 'img/kokushibouu.svg';
-          imgIcon = 'img/icon-clima/icon-sol-com-nuves.svg';
+          imgIcon = 'img/icon-clima/Night.svg';
 
         break;
           case 'rain':
           imgPerson = 'img/Tanjiroo.svg';
-          imgIcon = 'img/icon-clima/icon-sol-com-nuves.svg';
+          imgIcon = 'img/icon-clima/Rain.svg';
 
         break;
           case 'storm':
           imgPerson = 'img/Zenitsuu.svg';
-          imgIcon = 'img/icon-clima/icon-sol-com-nuves.svg';
+          imgIcon = 'img/icon-clima/Storm.svg';
 
         break;
           case 'none_night':
           imgPerson = 'img/kokushibouu.svg';
-          imgIcon = 'img/icon-clima/icon-sol-com-nuves.svg';
+          imgIcon = 'img/icon-clima/Night.svg';
 
         break;
           case 'none_day':
           imgPerson = 'img/Rengokuu.svg';
-          imgIcon = 'img/icon-clima/icon-sol-com-nuves.svg';
+          imgIcon = 'img/icon-clima/Sun.svg';
 
         default:
           break;

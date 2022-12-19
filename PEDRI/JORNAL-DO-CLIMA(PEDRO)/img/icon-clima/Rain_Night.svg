@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+	<title>Rain_Night</title>
+	<defs>
+		<image  width="28" height="28" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAAXNSR0IB2cksfwAAAEJQTFRFAAAA////////////////////////////////////////////////////////////////////////////////////CF/ShgAAABZ0Uk5TACB/v+//z59AEN8wkKBwsGCAj1Afb8ZhTOAAAAEASURBVHicdVLRgoMgDGsHUajodLv7/1+9FHHTjcsLakxoAiIVegsRGMbkL/lmsEka8ogDQUWN64ubDLGkLDnN/L5QhvvBafT/23OhylaU490wyxsbtStCZURGmJxREHLEQyWZKKAXkkxa3ZyiFaNcsXEcnQeQCHh+kPRi4gGmEt+RDlhNHLkb8MnJM8s0c+guWbG41PDTZ2dsHGjtk4lRlr2NDrghM+u/JDP3pQkD67JrRyHv61g/T6cjE7lxSMdv65yH/RKzu0hpeqD9xJprFW7oF2bzYbygQ1CaoWHx87VyjbAbcqdeobth8Bv4Te6GOpxHPxXSNWzh+4ZtoG/DP1OgB9ACnSVHAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="2" y="2"/>
+</svg>

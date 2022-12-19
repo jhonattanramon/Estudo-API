@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+	<title>Sun</title>
+	<defs>
+		<image  width="28" height="28" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAAXNSR0IB2cksfwAAAD9QTFRFAAAA////////////////////////////////////////////////////////////////////////////////Q7v6agAAABV0Uk5TAP9vEGCfgH+/QO8gkN/PUDCPcKAfEyHEawAAAPhJREFUeJx9ktt2hSAMRJlyUyIK0v//1nKRkhy7mgcXMAjDnijFC1B/1ZdeojZSs3BL9NiEuCPQHBNAQlSH079jd7yv3W0ETnuJxa0fQhueijS2tq8B6jEpILi6mkxESEpl4G7GXXVKAeW5VB/NnAuPifpDBDNR6lP0MnwhLrNKB+yCgYDiYNnsROIiIY4BGrJP4GMN/4u9Ir65lnCyWRmhzDLCUA2FPyViASatNr43N7MDgvah48sTn234PHyb30Du4KOpjyUfOvgDg0vprCjOyGaE4nFXOWuYdlevyn6Z9VlqvKlIhlJbhbemDKVB4U19v69VrwB+ABofBoHLHma2AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="2" y="2"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+	<title>Cloudy_Night</title>
+	<defs>
+		<image  width="28" height="28" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAAXNSR0IB2cksfwAAAEVQTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////Up1zwgAAABd0Uk5TABBwv9//MG/vIH9gnx9Aj8+ggJCvULAtTX79AAAA/0lEQVR4nHVS4XqEIAwDaVgRhoDn3v9R1ypu6nH5UyVfSppizA12cgQ4bwb4YggojLhZRJEQP3CTMYAdcAGqscBImJC0ML5Pd73mpYgXWsRKxdI7taM4nEjBA/N+WEiLZ/CarbG5itpP2qIl3i8Xzp2ThRfYb9TbyD+hXmytIGtya1NGUZPlZtp1Q5OYl+nuaYUjBWmYTTymu0ldanJ50c/tQcbDjcbPeO4nrDFW3slxlBIB3EfSBBZD9JfzAw0/Ymi4Wx2JZVY3JvVC+wzhhBWlhDmWbnpu6dzuHWU3Iyt7vXee+wv1sr+Ur2/OZnkbPdZQ8Qb+jzysha8UNW30CxCHCQ2qZY22AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="2" y="2"/>
+</svg>

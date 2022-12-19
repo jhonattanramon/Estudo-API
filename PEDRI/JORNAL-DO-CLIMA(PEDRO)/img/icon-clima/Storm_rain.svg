@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+	<title>Storm_rain</title>
+	<defs>
+		<image  width="28" height="28" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAAXNSR0IB2cksfwAAAEhQTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////////53h4sAAAABh0Uk5TACB/v+//z59AEDDfkKBwX4BgsFAfb4+v2r+WQQAAAO9JREFUeJxtUluChCAMAyHyKDg67q73v+mWzqgVzVchEJIWYwR2cB4YQzQ3pIAdznZcJvgSk0mxEjBdOOvP87YAL80RqlrO8PlcBdBFqMCdF4Grh+RxeF4QOn8z3nvpsHYka3FikfPIHWlIEg9cAT1n1mRylcAPpGCCt6zx88xWzGxoeSYj559UZoY6yQ9yZtWEgbUUyZmf2xUxcrvo7BGpi0G28zGyQc3g9yvCw0YnGv+wi9iKj6igNC/6R1gRFVBikkr/l1rMfrofbCIgdrf7ldYb1+wvt4aOrRUcxX7LC9DSkPwe3KY4t8fSepSCf/lUBzvwMCyWAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="2" y="2"/>
+</svg>

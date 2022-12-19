@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+	<title>CLOUDY</title>
+	<defs>
+		<image  width="28" height="28" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAAXNSR0IB2cksfwAAAEVQTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////Up1zwgAAABd0Uk5TACCP3//Pn0AwoH/vgGAQv1+QcLBQH2//l2hyAAAA+0lEQVR4nHVSW2LDIAyDoPCYUyis2/2POhtoAyTTT4iFjWxZqRN6M8ButbrBho7tylnAOqV84O/KfYFcr25wzBxHHu+zA8WJfCCdPwkwgy6dRMluXb/JoGejon0LRZKEqEUX1VxvQNlFFV3gRksvlpGlJLX7tXwGejkNqjrDoOwA+XYCpHkz6c5dt+e4BuZhRoJrE7Msex3WgW8xQdQmvBZSt6aIJ0bwC6nMxxvRtOAVqzfllqwo8qbBzz0b2Lh0WjXDcZ9l9GoCP8g9325UU3P8k+qw87jMdaEEtob9YNmJ3z5zNpu3ctopx0vcV1AHXFE+N3VONDImS80/0hsHjNLk8E0AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="2" y="2"/>
+</svg>
