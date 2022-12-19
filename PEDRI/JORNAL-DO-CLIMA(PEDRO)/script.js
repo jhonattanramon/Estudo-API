@@ -21,7 +21,7 @@ let container = document.querySelector('.container')
 const criarTela = ()=>{
     
     container.innerHTML = ''
-    for( let i = 0; i <= 0; i++){
+    for( let i = 0; i <= 9; i++){
 
 
       switch (results.forecast[i].condition) {
