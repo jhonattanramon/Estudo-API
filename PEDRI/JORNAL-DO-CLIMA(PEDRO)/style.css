@@ -185,8 +185,8 @@ background:  rgba(254, 254, 255, 0.581);;
 
 .retangulo{
   position: absolute;
-  top: 1px;
-  left: -12px;
+  top: 10px;
+  left: 125px;
  
 }
 .line{

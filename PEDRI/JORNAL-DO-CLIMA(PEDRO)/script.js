@@ -89,21 +89,22 @@ const criarTela = ()=>{
     </div>
 
      <div class="hora" > <p class="api-hora"> ${results.time}</p> </div>
+     <div class="retangulo"> <img src="img/Rectangle 5.svg" alt=""></div>
 
      <span class="spanCidade">
+     
      <img class="marcador" src="img/icons8-marcador-50.png" alt="">
+     <input type = 'text' value = 'Rio Largo' class= 'inCity' >
 
      <span class="cidade"> 
 
-      <input type = 'text' value = '${results.city}' class>
-      
-      <button class = 'btPesquisar'>
+      <button class='btPesquisar'>
        <img src='img/icon-clima/lupa.svg'> </img>
-     </button> 
+      </button> 
 
      </span>
 
-     <div class="retangulo"> <img src="img/Rectangle 5.svg" alt=""></div>
+    
      
    
    </span>
